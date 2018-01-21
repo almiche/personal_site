@@ -69,10 +69,23 @@ body {
 
 .card-img-top {
     width: 100%;
-    height: 15vw;
+    height: 20vw;
     object-fit: cover;
 }
 
 .card {
     padding:3%
+}
+
+#centerpiece {
+    position:fixed;
+    max-width:100vw;
+    left:50%;
+    border-width:3%;
+    border-color:black;
+}
+
+#aboutSection {
+    width:40rem;
+
 }

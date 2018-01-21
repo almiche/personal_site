@@ -1,11 +1,7 @@
 require './index'
 require 'rack'
-# require 'quotifier'
+require 'quotifier'
 
-# use Quotifier
+# use Quotifier 
 
-configure :development do
-    use Rack::Reloader
-  end
-
-run Sinatra::Application
+run MyApp

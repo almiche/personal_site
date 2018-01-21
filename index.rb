@@ -28,8 +28,4 @@ class MyApp < Sinatra::Application
         File.read(File.join('public', "#{view.to_s}.html"))
       end
 
-
-
-
-    MyApp.run!
 end
