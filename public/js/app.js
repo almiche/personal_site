@@ -57,7 +57,7 @@ $(document).ready(function(){
 
     function callback(response){
         $("#projects_selection").fadeOut('slow');
-        $("#centerpiece").replaceWith(response);
+        $("#centerpiece").empty().append(response);
         $("#projects_selection:hidden:first").fadeIn('slow');
     }
 
