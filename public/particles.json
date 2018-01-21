@@ -1,0 +1,13 @@
+{
+  "particles": {
+    "number": {
+      "value": 50
+    },
+    "shape": {
+      "type": "circle"
+    }
+  },
+  "interactivity": {
+     
+  }
+}
