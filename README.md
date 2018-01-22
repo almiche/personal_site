@@ -4,7 +4,11 @@
 
 This is a single page application with a <div> named centerpiece in the middle of the piece where the main content resides. A Sinatra web server is used to supply the main content in the middle of the page.
   
- 
+ ## Some Screenshots :P 
+  
+ Index        |  Projects Page
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/almiche/personal_site/master/frontpage.PNG)  |  ![](https://raw.githubusercontent.com/almiche/personal_site/master/projectsPage.PNG)
 
 ## Instructions to run
 
