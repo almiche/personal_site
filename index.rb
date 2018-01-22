@@ -16,7 +16,7 @@ class MyApp < Sinatra::Application
         html :projects
     end
    
-    get '/aboutme' do 
+    get '/about' do 
         html :about
     end
     
