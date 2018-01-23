@@ -10,10 +10,6 @@ html,body {
     background-color:white;
 }
 
-#name {
-    font-size:4em;
-}
-
 .navbar,.bg-dark {
   background-color:transparent;
 }
@@ -40,37 +36,36 @@ html,body {
 
 @media (max-width: 320px) {
     #name{
-        font-size: 2em;
+        font-size: 1.5em;
       }
       #student{
         font-size: 1em;
       }
-      #title{
-          z-index: 1;
-          position:fixed;
-          top:20vh;
-          left:20px;
-      }
-
 }
 /* iPhone 6 */
 @media (max-width: 767px) {
-  #name{
-    font-size: 3em;
-  }
-  #student{
-    font-size: 2em;
-  }
-  #title{
-      z-index: 1;
-      position:fixed;
-      top:20vh;
-      left:20px;
-  }
+    #name{
+        font-size: 1.5em;
+      }
+      #student{
+        font-size: 1em;
+      }
 }
 /* iPhone 6 - Plus*/
 @media (max-width: 991px) {
+    #name{
+        font-size: 1.5em;
+      }
+      #student{
+        font-size: 1em;
+      }
 }
 /* XL - Big Ass Screens */
 @media (min-width: 991px) {
+    #name{
+        font-size: 1.5em;
+      }
+      #student{
+        font-size: 1em;
+      }
 }
