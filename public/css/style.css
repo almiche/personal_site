@@ -39,6 +39,19 @@ html,body {
 } 
 
 @media (max-width: 320px) {
+    #name{
+        font-size: 2em;
+      }
+      #student{
+        font-size: 1em;
+      }
+      #title{
+          z-index: 1;
+          position:fixed;
+          top:20vh;
+          left:20px;
+      }
+
 }
 /* iPhone 6 */
 @media (max-width: 767px) {
