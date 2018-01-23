@@ -14,14 +14,17 @@ html,body {
     font-size:4em;
 }
 
-.container-nav {
-    background-color:red;
-    border:none;
+.navbar,.bg-dark {
+  background-color:transparent;
 }
 
-.navbar li a:hover:active {
-    color:black;
+.navbar-dark.navbar-nav.nav-link{
+    color:blue;
 }
+
+/* .navbar li a:hover:active {
+    color:black;
+} */
 
 #particles-js{
     z-index: -2;
