@@ -6,7 +6,7 @@ class MyApp < Sinatra::Application
         super(app)
     end
 
-    set :public_folder, 'public'
+    set :public_folder, 'public'    
 
     get '/' do
         html :index

@@ -8,11 +8,10 @@ $(document).ready(function(){
        $(this).toggleClass('active'); 
 
         $('#title').animate({
-            left: '1%',
-            top:'10%',
+            top:'2%',
         }, 1000,function(){
             $('.navbar.navbar-inverse li').fadeOut();
-            $('#vertical_menu:hidden:first').fadeIn('slow');
+            //Menu into drop down
         });
 
         $('#name').animate({
@@ -25,7 +24,7 @@ $(document).ready(function(){
 
     });
 
-    $('.selection,.list-group-item').click(function(){
+    $('.nav-item').click(function(){
         pageFactory( $(this).attr('value'), callback);
 
     });
@@ -47,9 +46,7 @@ $(document).ready(function(){
         
 
     function callback(response){
-        $("#projects_selection").fadeOut('slow');
         $("#centerpiece").empty().append(response);
-        $("#projects_selection:hidden:first").fadeIn('slow');
     }
 
 });

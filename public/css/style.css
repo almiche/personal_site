@@ -1,56 +1,26 @@
-body {
+
+html,body {
     font-family:"Arial Black";
-    max-height:100%;
-    max-width:1200px;
+    max-height:100vh;
+    max-width:100vw;
     background-color: transparent;
+}
+
+.jumbotron {
+    background-color:white;
 }
 
 #name {
     font-size:4em;
 }
 
-#title{
-    z-index: 1;
-    position:fixed;
-    top:40%;
-    left:40%;
-}
-
-.navbar.navbar-inverse {
-    background-color:transparent;
+.container-nav {
+    background-color:red;
     border:none;
 }
 
-.navbar.navbar-inverse li {
-    position:static;
-}
-
-.navbar.navbar-inverse li a {
-    color:grey;
-}
-
-.navbar.navbar-inverse li a:hover:active {
+.navbar li a:hover:active {
     color:black;
-}
-
-#vertical_menu {
-    display:none;
-    position:relative;
-    top:20%;
-    left:-1%;
-}
-
-#vertical_menu li{
-    width:6%;
-    border:none;
-}
-
-#vertical_menu li a{
-    color:grey;
-}
-
-#vertical_menu li a:hover:active{
-    color:grey;
 }
 
 #particles-js{
@@ -59,33 +29,32 @@ body {
     width:100%;
 }
 
-#projects_selection{
-    display:none;
-    position:fixed;
-    left:20%;
-    top:10%;
-    background-color: transparent;
-}
-
 .card-img-top {
     width: 100%;
     height: 20vw;
     object-fit: cover;
+} 
+
+@media (max-width: 320px) {
 }
-
-.card {
-    padding:3%
+/* iPhone 6 */
+@media (max-width: 767px) {
+  #name{
+    font-size: 3em;
+  }
+  #student{
+    font-size: 2em;
+  }
+  #title{
+      z-index: 1;
+      position:fixed;
+      top:20vh;
+      left:20px;
+  }
 }
-
-#centerpiece {
-    position:fixed;
-    max-width:100vw;
-    left:50%;
-    border-width:3%;
-    border-color:black;
+/* iPhone 6 - Plus*/
+@media (max-width: 991px) {
 }
-
-#aboutSection {
-    width:40rem;
-
+/* XL - Big Ass Screens */
+@media (min-width: 991px) {
 }
