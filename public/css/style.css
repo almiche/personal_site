@@ -6,6 +6,14 @@ html,body {
     background-color: transparent;
 }
 
+h1 {
+    text-align: center;
+}
+
+a {
+    color:black;
+}
+
 .jumbotron {
     background-color:white;
 }
