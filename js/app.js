@@ -26,7 +26,6 @@ $(document).ready(function(){
 
     $('.nav-item').click(function(){
         pageFactory( $(this).attr('value'), callback);
-
     });
 
     function pageFactory(pageName,callback){
