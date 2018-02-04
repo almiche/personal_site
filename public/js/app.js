@@ -40,7 +40,7 @@ $(document).ready(function(){
                 }
             }; 
         
-        request.open("GET", "/" + pageName, true);
+        request.open("GET", "https://raw.githubusercontent.com/almiche/personal_site/master/public/"+ pageName + ".html", true);
         request.send();
     }
         
